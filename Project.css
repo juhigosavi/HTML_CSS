@@ -1,0 +1,59 @@
+body{
+    
+display: grid;
+   place-items: center;
+    
+ }
+   div{
+        background-color: coral;
+        width: 200px;
+        height: 60px;
+        border: 1px solid;
+        overflow: visible;
+ }
+     img{
+        float:left;
+        }
+       box {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        line-height: 200px;
+        position: absolute;
+        font-size: 20px;
+        color: white;
+      }
+      
+      .box1 {
+        background-color: red;
+        z-index: 1; 
+      }
+      
+      .box2 {
+        background-color: blue;
+        z-index: 2;
+      }
+      
+      .box3 {
+        background-color: green;
+        z-index: 3; 
+      }
+
+
+ table,td,th{
+        width: 50%;
+        background-color: yellow;
+    border: 2px dashed black;
+        border-top: 1px ridge black;
+        border-bottom: 1px solid black;
+        border-left: 1px dashed black ;
+        border-right: 1px dotted black ;
+
+       }
+    
+     
+    
+   
+
+
+
